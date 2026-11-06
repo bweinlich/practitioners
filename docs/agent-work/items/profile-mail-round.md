@@ -103,4 +103,26 @@ months.
    old training names (Agentic Product Engineering, Agentic Factory Engineering); his mail shows
    both, and his reply decides.
 
+## What each mail asks for (measured 06.11., `src/content/practitioners/`)
+
+Each entry's page at `/<slug>/` in `bun run dev` lists what it lacks; the mail links the person to
+their page on `hackersandwizards.dev/team/<slug>/`, never to this repo.
+
+- 16 `active` entries lack only consent.
+- Benedikt's entry lacks only consent. It now carries the links his own site publishes (X, GitLab,
+  Xing, Speaker Deck, Wikidata), added on his message of 06.11. that many of his profile links were
+  missing. Company OS lists more that he publishes nowhere (Bluesky, Sessionize, Hugging Face,
+  Stack Overflow, Luma, Meetup, the Amazon author page, haw.dev/call as booking link): his reply
+  decides which go in.
+- 35 seed drafts lack the English and German bio and consent; Dana Buß and Reachy lack LinkedIn too.
+- Links proposed in the mail, already published but not in the entry: Stefan Munz
+  `x.com/stefanmunz` (stefanmunz.com). From the website's own profiles: Felix Duus productful.io,
+  Hendrik Hemken beyond7.ai, Jannik Streek b310.de and github.com/JannikStreek, Julia Bastian
+  juliabastian.medium.com, Kai Wendlandt github.com/kaiwend, Kamil Kubica kamilkubica.com, Martin
+  Westphal martin.westphal.pw, westphal.ai and sessionize.com/adeanima, Matthias Lau
+  heureka-labs.de and github.com/matthiaslau, Oliver Tischlinger github.com/Metabor, Zamina Ahmad
+  zamina.de.
+- The website has profiles with no entry here: Andreas Stephan, Markus Andrezak, Sebastian
+  Jespersen.
+
 After the round, `consent` becomes required for `active` in `src/lib/schema.ts`.
