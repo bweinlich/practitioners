@@ -98,8 +98,9 @@ months.
 3. **The consent statement** (in the skill, under Mandatory) checked by Dana or the lawyer before
    the first mail.
 4. **Your own entry is the first case:** it now carries the bio and portrait the website publishes,
-   as `draft`. Reply „passt“ here or in a session, and it turns `active` with today's consent.
-   Stefan Munz's entry now has the new portrait; his text still names the old training names
-   (Agentic Product Engineering, Agentic Factory Engineering), which his mail will show.
+   as `draft`. Reply „passt“ here or in a session, and it turns `active` with the date of your yes.
+   Stefan Munz's entry still has the old portrait (the website shows the 28.10. shoot) and names the
+   old training names (Agentic Product Engineering, Agentic Factory Engineering); his mail shows
+   both, and his reply decides.
 
 After the round, `consent` becomes required for `active` in `src/lib/schema.ts`.
