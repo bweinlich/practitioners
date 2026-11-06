@@ -10,12 +10,12 @@ recommended: mail
 options:
   - key: mail
     label: Each trainer confirms or corrects their own entry by replying to a mail
-    detail: "The mail shows only their entry (the text the website publishes, portrait, links, what is missing) and one consent statement. Reply: it fits, corrections or a new photo, or take me off. An agent applies it; only corrections get a second mail. The repo goes private and trainers lose write access. Built here: skill route, consent field. Trainer 2 to 10 minutes, no tools; h&w about 15 minutes of agent work plus a founder's check and send per trainer."
+    detail: "The mail shows only their entry (the text the website publishes, portrait, links, what is missing). Reply: it fits, corrections or a new photo, or take me off. An agent applies it; only corrections get a second mail. The repo goes private and trainers lose write access. Built here: skill route. Trainer 2 to 10 minutes, no tools; h&w about 15 minutes of agent work plus a founder's check and send per trainer."
     score: 8.67
     noise: 0.25
   - key: link
     label: A personal expiring link to a web page showing only their entry
-    detail: "Form or guided AI interview, consent tick box, approval becomes a change h&w merges. Trainer 5 to 15 minutes in a browser; h&w builds and hosts an app, about 4 to 6 days plus data-processing agreements and upkeep."
+    detail: "Form or guided AI interview, approval becomes a change h&w merges. Trainer 5 to 15 minutes in a browser; h&w builds and hosts an app, about 4 to 6 days plus data-processing agreements and upkeep."
     score: 7.44
     noise: 0.25
   - key: folder
@@ -25,7 +25,7 @@ options:
     noise: 0.25
   - key: current
     label: Keep today's flow
-    detail: "Public repo, every trainer can write every entry, no consent recorded, git, Bun and Claude Code needed."
+    detail: "Public repo, every trainer can write every entry, git, Bun and Claude Code needed."
     score: 1.33
     noise: 0.25
 ---
@@ -44,8 +44,7 @@ branch protection and two public forks exist. 16 of 54 entries are `active`, 38 
 wrote. 11 trainers committed their own bio, each once, the last on 05.10. The path needs a GitHub
 account, git, Bun and Claude Code. Four surfaces describe it differently: trainer-hub's onboarding
 says "start Claude in this repository" (trainer-hub), Seymour says clone practitioners, the seed
-text says "tell Seymour", the README says to ask for write access. Nothing records consent or photo
-rights. The link `hackersandwizards.dev/practitioners/` now redirects to `/team/`.
+text says "tell Seymour", the README says to ask for write access. The link `hackersandwizards.dev/practitioners/` now redirects to `/team/`.
 
 ## Research (fetched 06.11.)
 
@@ -78,8 +77,10 @@ Claude's two runs. Mail leads link by 1.23, both models agree.
 
 Folded in from the reviewers: no confirmation mail when the reply is "it fits" (two mails per
 trainer were the network lead's main cost); the do-it-yourself interview stays for people with
-write access only, so it exposes no drafts. Left as it is: consent by reply rather than a tick box.
-A reply is a dated, written record.
+write access only, so it exposes no drafts.
+
+Consent is no longer collected (Benedikt, 06.11.), so C3 no longer counts. Without it, mail still
+leads on C2, C4 and C5; link leads C1 by 0.11.
 
 Effort, my judgement: the trainer's time from the step count of each option. h&w per trainer is
 about 15 minutes of agent work plus a founder's minute to check and send, about two working days
@@ -91,14 +92,11 @@ months.
 1. **The repo goes private, and trainers lose write access** (40 collaborators today; you and
    Stefan keep admin). Either here or in trainer-hub, per `practitioners-repo`.
 2. **The mail round.** The 21 Gmail drafts „Deine Profilseite auf unserer Website“ are adapted to
-   the skill's route `By mail` (own entry inline, what is missing, the consent statement, the three
-   replies) and sent by you or Stefan. Then the 18 seed drafts without a website page (Reachy and
-   Thomas Kern among them, who need none) and the 16 `active` entries, which record no consent
-   either.
-3. **The consent statement** (in the skill, under Mandatory) checked by Dana or the lawyer before
-   the first mail.
-4. **Your own entry is the first case:** it now carries the bio and portrait the website publishes,
-   as `draft`. Reply „passt“ here or in a session, and it turns `active` with the date of your yes.
+   the skill's route `By mail` (own entry inline, what is missing, the three replies) and sent by you or Stefan. Then the 18 seed drafts without a website page (Reachy and
+   Thomas Kern among them, who need none). The 16 `active` entries lack nothing mandatory; a mail
+   to them only proposes the links listed below.
+3. **Your own entry is the first case:** it now carries the bio and portrait the website publishes,
+   as `draft`. Reply „passt“ here or in a session, and it turns `active`.
    Stefan Munz's entry still has the old portrait (the website shows the 28.10. shoot) and names the
    old training names (Agentic Product Engineering, Agentic Factory Engineering); his mail shows
    both, and his reply decides.
@@ -108,13 +106,12 @@ months.
 Each entry's page at `/<slug>/` in `bun run dev` lists what it lacks; the mail links the person to
 their page on `hackersandwizards.dev/team/<slug>/`, never to this repo.
 
-- 16 `active` entries lack only consent.
-- Benedikt's entry lacks only consent. It now carries the links his own site publishes (X, GitLab,
-  Xing, Speaker Deck, Wikidata), added on his message of 06.11. that many of his profile links were
-  missing. Company OS lists more that he publishes nowhere (Bluesky, Sessionize, Hugging Face,
-  Stack Overflow, Luma, Meetup, the Amazon author page, haw.dev/call as booking link): his reply
-  decides which go in.
-- 35 seed drafts lack the English and German bio and consent; Dana Buß and Reachy lack LinkedIn too.
+- 16 `active` entries lack nothing mandatory.
+- Benedikt's entry lacks nothing mandatory, and its links are settled: those his own site
+  publishes (X, GitLab, Xing, Speaker Deck, Wikidata) and, by his choice of 06.11. (commit
+  8737b34), Bluesky, Sessionize, the Amazon author page, Hugging Face, Stack Overflow, Luma and
+  Meetup. haw.dev/call and Happenstance stay out. It stays `draft` until his yes to the text.
+- 35 seed drafts lack the English and German bio; Dana Buß and Reachy lack LinkedIn too.
 - Links proposed in the mail, already published but not in the entry: Stefan Munz
   `x.com/stefanmunz` (stefanmunz.com). From the website's own profiles: Felix Duus productful.io,
   Hendrik Hemken beyond7.ai, Jannik Streek b310.de and github.com/JannikStreek, Julia Bastian
@@ -125,7 +122,7 @@ their page on `hackersandwizards.dev/team/<slug>/`, never to this repo.
 - Andreas Stephan, Markus Andrezak and Sebastian Jespersen, added 06.11. as `draft` with the text,
   portrait and LinkedIn their website profile publishes (website `src/data/profiles.ts`). That text
   is a Company OS intro none of them has confirmed, so each mail asks them to confirm or correct
-  it, and for consent.
+  it.
   - Andreas Stephan: the portrait is 299x299, under the 480x480 the skill asks for, so the mail
     asks for a larger photo. Proposed links: andreasstephan.com (website profile) and the Google
     Calendar booking page that site links as `bookme`.
@@ -135,5 +132,3 @@ their page on `hackersandwizards.dev/team/<slug>/`, never to this repo.
     podcast directories list is from early 2020 (player.fm, podm8, fetched 06.11.), so the mail
     asks whether that still holds.
   - Sebastian Jespersen: no website on his profile and none found; nothing to propose.
-
-After the round, `consent` becomes required for `active` in `src/lib/schema.ts`.
