@@ -79,8 +79,8 @@ Folded in from the reviewers: no confirmation mail when the reply is "it fits" (
 trainer were the network lead's main cost); the do-it-yourself interview stays for people with
 write access only, so it exposes no drafts.
 
-Consent is no longer collected (Benedikt, 06.11.), so C3 no longer counts. Without it, mail still
-leads on C2, C4 and C5; link leads C1 by 0.11.
+Consent is no longer collected (Benedikt, 06.11.), so C3 no longer counts. The means above still
+include it. On the other criteria mail leads link on C2, C4 and C5, and link leads C1 by 0.11.
 
 Effort, my judgement: the trainer's time from the step count of each option. h&w per trainer is
 about 15 minutes of agent work plus a founder's minute to check and send, about two working days
@@ -92,9 +92,11 @@ months.
 1. **The repo goes private, and trainers lose write access** (40 collaborators today; you and
    Stefan keep admin). Either here or in trainer-hub, per `practitioners-repo`.
 2. **The mail round.** The 21 Gmail drafts „Deine Profilseite auf unserer Website“ are adapted to
-   the skill's route `By mail` (own entry inline, what is missing, the three replies) and sent by you or Stefan. Then the 18 seed drafts without a website page (Reachy and
-   Thomas Kern among them, who need none). The 16 `active` entries lack nothing mandatory; a mail
-   to them only proposes the links listed below.
+   the skill's route `By mail` (own entry inline, what is missing, the three replies) and sent by you or Stefan. Then the 18 seed
+   drafts without a website page (Reachy and Thomas Kern among them, who need none). The 16
+   `active` entries lack nothing mandatory. Five of them (Björn Rochel, Christian Tietze, Johann
+   Laur, Nils Eckelt, Tobias Schlitt) were committed by Stefan or Claude Code, never by the person,
+   and nothing here records their yes to the text.
 3. **Your own entry is the first case:** it now carries the bio and portrait the website publishes,
    as `draft`. Reply „passt“ here or in a session, and it turns `active`.
    Stefan Munz's entry still has the old portrait (the website shows the 28.10. shoot) and names the
