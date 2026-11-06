@@ -37,7 +37,7 @@ A public build shows an entry only when it is `active`, which the person's own c
 `bun run build` produced the overview and the 16 `active` pages on 06.11. Five of them were
 committed by Stefan or Claude Code, never by the person: Björn Rochel, Christian Tietze, Johann
 Laur, Nils Eckelt, Tobias Schlitt. No public host before each of them is confirmed by the person's
-own change (`profile-mail-round`) or returns to `draft`.
+own change or their yes to the text (`profile-mail-round`), or returns to `draft`.
 The gate also builds a preview of
 every page into `.preview/` (gitignored), so a broken page fails it.
 

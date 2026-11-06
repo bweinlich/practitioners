@@ -30,7 +30,7 @@ version.
 
 - **16 `active`, nothing missing.** Five of them were committed by Stefan or Claude Code, never by
   the person: Björn Rochel, Christian Tietze, Johann Laur, Nils Eckelt, Tobias Schlitt. Their mail
-  asks for a pull request, even one that changes nothing but a line, as their yes. Verena Traub is
+  asks them to improve their entry by pull request, or to reply that it fits as it stands. Verena Traub is
   `active` here but has no page on the website (404).
 - **4 drafts with a full text** that the person has not confirmed: Benedikt Stemmildt, and Andreas
   Stephan, Markus Andrezak and Sebastian Jespersen, whose text comes from their website profile.
