@@ -122,7 +122,18 @@ their page on `hackersandwizards.dev/team/<slug>/`, never to this repo.
   Westphal martin.westphal.pw, westphal.ai and sessionize.com/adeanima, Matthias Lau
   heureka-labs.de and github.com/matthiaslau, Oliver Tischlinger github.com/Metabor, Zamina Ahmad
   zamina.de.
-- The website has profiles with no entry here: Andreas Stephan, Markus Andrezak, Sebastian
-  Jespersen.
+- Andreas Stephan, Markus Andrezak and Sebastian Jespersen, added 06.11. as `draft` with the text,
+  portrait and LinkedIn their website profile publishes (website `src/data/profiles.ts`). That text
+  is a Company OS intro none of them has confirmed, so each mail asks them to confirm or correct
+  it, and for consent.
+  - Andreas Stephan: the portrait is 299x299, under the 480x480 the skill asks for, so the mail
+    asks for a larger photo. Proposed links: andreasstephan.com (website profile) and the Google
+    Calendar booking page that site links as `bookme`.
+  - Markus Andrezak: the portrait is 400x400, so the mail asks for a larger photo. Proposed links:
+    ueberproduct.de (website profile) and `bookme` calendly.com/markusup/coffee-chat
+    (ueberproduct.de/kontakt). The bio says he hosts "Stories Connecting Dots"; the newest episode
+    podcast directories list is from early 2020 (player.fm, podm8, fetched 06.11.), so the mail
+    asks whether that still holds.
+  - Sebastian Jespersen: no website on his profile and none found; nothing to propose.
 
 After the round, `consent` becomes required for `active` in `src/lib/schema.ts`.
