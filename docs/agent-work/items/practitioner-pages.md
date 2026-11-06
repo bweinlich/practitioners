@@ -35,7 +35,13 @@ is hosted today: the repo is public, the site runs only in `bun run dev`.
 
 A public build shows an entry only when it is `active` and has a `consent` date. Today no entry
 has a consent date, so `bun run build` produces the overview and no person page. Checked with a
-control: a consent date on one active entry produces exactly that page.
+control: a consent date on one active entry produces exactly that page. The gate also builds a preview of
+every page into `.preview/` (gitignored), so a broken page fails it.
+
+Gap before any public host: the public build still copies every portrait into `dist/_astro/`
+(54 files measured 06.11.), since the schema's `image()` processes each entry's photo whether its
+page renders or not. Nothing links to those files and the repo serves them anyway, but a host
+would publish them; until fixed, deploy no `dist/`.
 
 ## Blind review
 
