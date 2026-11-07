@@ -2,6 +2,7 @@
 kind: decision
 status: assumed
 priority: 2
+order: 200
 owner: Benedikt
 area: people
 evidence: "Blind review 06.11., 2 personas, Claude twice and Codex once each; screenshots at 375 and 1440 px against hackersandwizards.dev/team/benedikt-stemmildt/ and /stefan-munz/"
