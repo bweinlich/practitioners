@@ -5,19 +5,21 @@ priority: 1
 order: 40
 area: people
 owner: Benedikt
-evidence: "Gmail drafts of benedikt@hackersandwizards.dev read back 07.11.: requested 51, fetched 51, failed 0; one per address, each with the opt-out sentence; entries at a4471d2."
+evidence: "Apple Mail SendLater read back 07.11.: each of the 51 addresses once, every Send Later sheet showed 11/9/2026 08:00; the 51 Gmail drafts deleted afterwards (deleted 50, already gone 1, failed 0)."
 ---
 
-# The mail round: 51 drafts wait for their scheduled send
+# The mail round: 51 mails go out Monday 09.11. at 08:00 from Apple Mail
 
 Each practitioner improves their own entry here by pull request (`CONTRIBUTING.md`, skill
 `practitioner-bio`, route Request); their pull request is their yes.
 
 ## Where it stands
 
-- **51 drafts** „Deine Profilseite auf unserer Website" / "Your profile page on our website" in
+- **51 mails** „Deine Profilseite auf unserer Website" / "Your profile page on our website" from
   benedikt@hackersandwizards.dev, one per person, 49 German and 2 English (Denis Turkov, Tereza
-  Iofciu). Nothing is sent; Company OS schedules the send.
+  Iofciu), scheduled with Apple Mail's Send Later for Monday 09.11.2026, 08:00, on Benedikt's
+  approval of 07.11. Send Later delivers from this Mac: it has to be on, online and Mail running
+  at 08:00. The Gmail drafts are deleted; the scheduled copies sit in Mail's Send Later mailbox.
   - 41 go to people whose entry h&w set up or which still lacks something, Stefan Munz's included
     (new photo, current training names, x.com/stefanmunz).
   - 10 go to the people who wrote and committed their own complete entry: a short look, a yes if
