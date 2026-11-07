@@ -25,7 +25,7 @@ Each practitioner improves their own entry here by pull request (`CONTRIBUTING.m
 - Every draft carries one sentence after the reply line: whoever would rather not be on the
   website at all says so by reply. German: „Und willst du lieber gar nicht auf der Website stehen,
   sag mir Bescheid." English: "And if you'd rather not be on the website at all, let me know."
-- **Marco Köpcke** is no longer active: no mail. His entry is another run's work.
+- **Marco Köpcke** is no longer active: no mail, and his entry is removed.
 - Thomas Kern, Reachy and Benedikt need no mail.
 
 ## After a send
