@@ -24,10 +24,8 @@ Each practitioner improves their own entry here by pull request (`CONTRIBUTING.m
     (new photo, current training names, x.com/stefanmunz).
   - 10 go to the people who wrote and committed their own complete entry: a short look, a yes if
     it still fits.
-- Every draft carries one sentence after the reply line: whoever would rather not be on the
-  website at all says so by reply. German: „Und willst du lieber gar nicht auf der Website stehen,
-  sag mir Bescheid." English: "And if you'd rather not be on the website at all, let me know."
-- **Marco Köpcke** is no longer active: no mail, and his entry is removed.
+- Every mail carries one sentence after the reply line: whoever would rather not be on the
+  website at all says so by reply. Its wording lives in the mails themselves.
 - Thomas Kern, Reachy and Benedikt need no mail.
 
 ## After a send
@@ -35,7 +33,7 @@ Each practitioner improves their own entry here by pull request (`CONTRIBUTING.m
 A reply with text is a correction, a reply confirming the entry is their yes, a pull request goes
 through the skill's review: all three per `practitioner-bio`.
 
-A reply declining the website has no route in `practitioner-bio` yet. Who is shown lives in the
-website's roster, so such a reply goes to the website repository.
+A reply declining the website follows the skill's "Take me off" route: the entry goes, and the
+website's roster, which says who is shown, changes in the website repository.
 
 Write access for the collaborators is a separate question: `practitioners-write-access`.
