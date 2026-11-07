@@ -20,9 +20,8 @@ Each practitioner improves their own entry here by pull request (`CONTRIBUTING.m
   blind review (scores and the text: Company OS item `practitioner-drafts-cleanup`). 39 German, 1
   English (Denis Turkov). Each opens with the ask, lists only what that entry lacks and the links
   h&w proposes, then the folder, `CONTRIBUTING.md` and a reply-by-mail line. Nothing is sent.
-- **13 drafts** for people with nothing to do (10 complete entries they committed themselves,
-  Stefan Munz, and the inactive trainers Danny Busch and Ivan Petkovic) wait for Benedikt's
-  decision to remove them: Company OS item `practitioner-drafts-cleanup`.
+- **13 drafts** for people with nothing to do wait for Benedikt's decision to remove them, list
+  and reasons in Company OS item `practitioner-drafts-cleanup`.
 - **Stefan Munz** updates his own entry: September photo, old training names, x.com/stefanmunz
   missing.
 - **Marco Köpcke** has a seed entry but no mail address in Company OS, only Slack: no draft.
