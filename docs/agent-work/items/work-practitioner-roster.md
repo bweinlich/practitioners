@@ -4,7 +4,7 @@ status: open
 priority: 1
 owner: Ada
 area: people
-evidence: "08.11.: 8 seed entries, affiliation on 24 entries, 9 Gmail drafts in benedikt@hackersandwizards.dev, none sent. Names live in os (docs/agent-work/2026-11-08-practitioner-roster.md and Ada's run report), since this repo is public."
+evidence: "08.11.: 8 seed entries, affiliation on 20 draft entries, 9 Gmail drafts in benedikt@hackersandwizards.dev, none sent. Names live in os (docs/agent-work/2026-11-08-practitioner-roster.md and Ada's run report), since this repo is public."
 assumption: "affiliation comes only from `work.company` or `facets.trainer.supply_partner` on the Company OS record (the company record's `name`), `freelance` only where the record says freelance, `hackers&wizards` for staff with an employment record; Slack channels were not read"
 ---
 
@@ -27,8 +27,8 @@ yet. Seeds without a portrait show initials and list "Portrait" as missing.
 - **One new entry lacks LinkedIn**: none on record; the mail asks for it.
 - **Three affiliations stay empty**: the company names are on os's confidential list, so each
   waits until the person states it and the name gets an allow entry with their yes.
-- **Six `active` entries got an affiliation without the person's yes**, from Company OS records.
-  The Monday round asks each to look at their entry.
+- **Six `active` entries carry no affiliation yet** although Company OS records one: an approved
+  entry changes only with the person's yes, so the follow-up asks them.
 
 ## Blind review of the overview, 08.11.
 
