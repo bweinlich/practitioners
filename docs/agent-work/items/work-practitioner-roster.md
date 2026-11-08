@@ -32,6 +32,13 @@ yet. Seeds without a portrait show initials and list "Portrait" as missing.
 - **Six `active` entries carry no affiliation yet** although Company OS records one: an approved
   entry changes only with the person's yes, so the follow-up asks them.
 
+## Before any public host
+
+A public build shows an entry only when it is `active`. Nothing is hosted today; before a host goes up:
+
+- Each `active` entry that the person neither committed nor said yes to is confirmed by them or returns to `draft`.
+- The build stops copying every portrait into `dist/_astro/`: the schema's `image()` processes each entry's photo whether its page renders or not.
+
 ## Blind review of the overview, 08.11.
 
 Medium: two personas (h&w colleague staffing a client project, trainer checking their own entry),
