@@ -62,7 +62,7 @@ Christian Tietze's other photos on their own websites need their yes, as the wor
 ## Treatment
 
 `scripts/retouch-portrait.ts`, after the recipe in Company OS (`profile-photos.md` and the event
-photos report of 29.10.): square crop, white balance by channel gain (gray-world at half strength,
+photos report of 29.10.): square crop and, with `--retouch`, white balance by channel gain (gray-world at half strength,
 each gain within 5 %), a tone curve that lowers highlights above 0.75 by up to 4 grey levels and
 keeps white, a Lanczos resize to the master size, and with `--sharpen` sharp-2, an unsharp mask on
 luminance only at radius 1.2 px, amount 70 %, threshold 2. WebP q82, effort 6, smart subsampling,
