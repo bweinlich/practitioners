@@ -6,7 +6,7 @@ owner: Ada
 evidence: "Measured 08.11.2026: every portrait's rendered width on all 580 pages of the live sitemap at windows of 1440, 1023 and 639 px, and on the four team pages at 18 widths from 360 to 1920 px. `src/lib/photo-size.test.ts` holds the minimum and the count."
 ---
 
-# 51 portraits are below the 918 px minimum, and three places still ask for 480 px
+# 51 portraits are below the 918 px minimum
 
 The minimum follows the first team group's slot, 459 CSS px at a 767 px window, which needs 918 px on a 2x screen. `stefan-munz` (486 CSS px) and `benedikt-stemmildt` (866 CSS px) have larger slots. Sharpening does not close that gap, so a larger original is the only fix. Larger originals were looked for in this repository's and trainer-hub's history, pull requests, Company OS, the mailbox, the talks repository and the websites and GitHub profiles named in the entries.
 
@@ -14,10 +14,9 @@ The minimum follows the first team group's slot, 459 CSS px at a 767 px window, 
 
 1. **The photo ask in the profile follow-up mail**, softest first, for at least 918 px wide and roughly square: the rows of the ranking below with a file under 918 px, except `stefan-munz` (point 2) and `reachy`, which is not on the website: 33 people. A further 16 folders hold protected names, which may stand only in the person's own folder: `sips -g pixelWidth src/content/practitioners/*/photo.webp` lists every portrait with its width. Lower the count in `src/lib/photo-size.test.ts` as originals arrive.
 2. **`stefan-munz`:** this repository keeps his own 480 px photo, the website shows the press portrait at 1024 px. He has not said yes to the press portrait for this entry; his yes moves it here.
-3. **Three places still ask for 480 px**, so a portrait made by them raises the count and turns the next full gate red (a commit of only `src/content/` runs just `astro check`): `CONTRIBUTING.md` line 72, `.claude/skills/practitioner-bio/SKILL.md` lines 70, 102 and 103, `src/lib/schema.ts` line 143. They should say at least 918 px, and the conversion should keep the file's size up to 1024 px.
-4. **Larger photos of the person that are other pictures**, for their own yes, as their entries are active: `ralf-hueller` (1024 x 1078 on their website, same pose, another background), `christian-tietze` (1000 px on their website).
-5. **`verena-traub`** holds the website's file, cropped to 450 px from a 1000 px source that is in no repository. That source gives at most 450 px at this crop; only the photographer's file would reach the minimum.
-6. **The website** still copies by hand. Its copy from the package is a brief for a session there. `benedikt-stemmildt`'s largest slot (866 CSS px) needs 1732 px; the brand press photo holds 2010 px, so that master is the website's to raise.
+3. **Larger photos of the person that are other pictures**, for their own yes, as their entries are active: `ralf-hueller` (1024 x 1078 on their website, same pose, another background), `christian-tietze` (1000 px on their website).
+4. **`verena-traub`** holds the website's file, cropped to 450 px from a 1000 px source that is in no repository. That source gives at most 450 px at this crop; only the photographer's file would reach the minimum.
+5. **The website** still copies by hand. Its copy from the package is a brief for a session there. `benedikt-stemmildt`'s largest slot (866 CSS px) needs 1732 px; the brand press photo holds 2010 px, so that master is the website's to raise.
 
 ## Ranking at the largest slot
 
