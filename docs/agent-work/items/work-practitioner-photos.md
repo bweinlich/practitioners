@@ -1,10 +1,10 @@
 ---
 kind: work
 status: open
-priority: 2
+priority: 3
 owner: Ada
 evidence: "Measured 08.11.2026: every portrait's rendered width on all 580 pages of the live sitemap at windows of 1440, 1023 and 639 px, and on the four team pages at 18 widths from 360 to 1920 px. `src/lib/photo-size.test.ts` holds the minimum and the count."
-order: 210
+order: 1770
 ---
 
 # Portraits below the 918 px minimum
