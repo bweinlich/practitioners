@@ -1,11 +1,12 @@
 ---
 kind: work
 status: open
-priority: 1
+priority: 2
 owner: Ada
 area: people
 evidence: "08.11.: 8 seed entries, affiliation on 20 draft entries, 9 Gmail drafts in benedikt@hackersandwizards.dev, none sent. Names live in os (docs/agent-work/2026-11-08-practitioner-roster.md and Ada's run report), since this repo is public."
 assumption: "affiliation comes only from `work.company` or `facets.trainer.supply_partner` on the Company OS record (the company record's `name`), `freelance` only where the record says freelance, `hackers&wizards` for staff with an employment record; Slack channels were not read"
+order: 180
 ---
 
 # Every person who delivers for h&w has an entry, with affiliation
@@ -16,8 +17,8 @@ yet. Seeds without a portrait show initials and list "Portrait" as missing.
 
 ## What remains
 
-- **Benedikt sends the drafts** "Dein Profil bei hackers&wizards" / "Your profile at
-  hackers&wizards" (7 German, 2 English on 08.11.) to the new entries with a working address and
+- **The drafts** "Dein Profil bei hackers&wizards" / "Your profile at
+  hackers&wizards" (7 German, 2 English on 08.11.), scheduled through os item `send-practitioner-profile-drafts`, go to the new entries with a working address and
   the two entries the Monday round leaves out. One new entry was removed on 08.11. by Benedikt's
   ruling: its draft, if one exists, is deleted, not sent. Each asks for bio, portrait, the profile for matching,
   and confirms or asks the affiliation.
