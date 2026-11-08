@@ -4,6 +4,7 @@ status: open
 priority: 2
 owner: Ada
 evidence: "Measured 08.11.2026: every portrait's rendered width on all 580 pages of the live sitemap at windows of 1440, 1023 and 639 px, and on the four team pages at 18 widths from 360 to 1920 px. `src/lib/photo-size.test.ts` holds the minimum and the count."
+order: 210
 ---
 
 # Portraits below the 918 px minimum
@@ -12,7 +13,7 @@ The minimum follows the first team group's slot, 459 CSS px at a 767 px window, 
 
 ## What remains
 
-1. **The photo ask in the profile follow-up mail**, softest first, for at least 918 px wide and roughly square: the rows of the ranking below with a file under 918 px, except `reachy`, which is not on the website: 33 people. `matthias-lau` holds a real 512 px portrait from his OOP speaker page since 08.11., in place of an AI-made image; Benedikt offered to pick larger variants of him. A further 16 folders hold protected names, which may stand only in the person's own folder: `sips -g pixelWidth src/content/practitioners/*/photo.webp` lists every portrait with its width. Lower the count in `src/lib/photo-size.test.ts` as originals arrive.
+1. **Larger originals as people send them.** No separate photo ask goes out (decided 08.11.); the profile mails already invite improvements. Softest first, at least 918 px wide and roughly square: the rows of the ranking below with a file under 918 px, except `reachy`, which is not on the website: 33 people. `matthias-lau` holds a real 512 px portrait from his OOP speaker page since 08.11., in place of an AI-made image; Benedikt offered to pick larger variants of him. A further 16 folders hold protected names, which may stand only in the person's own folder: `sips -g pixelWidth src/content/practitioners/*/photo.webp` lists every portrait with its width. Lower the count in `src/lib/photo-size.test.ts` as originals arrive.
 2. **Larger photos of the person that are other pictures**, for their own yes, as their entries are active: `ralf-hueller` (1024 x 1078 on their website, same pose, another background), `christian-tietze` (1000 px on their website).
 3. **`verena-traub`** holds the website's file, cropped to 450 px from a 1000 px source that is in no repository. That source gives at most 450 px at this crop; only the photographer's file would reach the minimum.
 
