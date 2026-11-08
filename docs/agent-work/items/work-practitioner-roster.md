@@ -18,7 +18,7 @@ yet. Seeds without a portrait show initials and list "Portrait" as missing.
 ## What remains
 
 - **The drafts** "Dein Profil bei hackers&wizards" / "Your profile at
-  hackers&wizards" (7 German, 2 English on 08.11.), scheduled through os item `send-practitioner-profile-drafts`, go to the new entries with a working address and
+  hackers&wizards" (7 German, 2 English on 08.11.), scheduled for Monday 09.11. 08:00, go to the new entries with a working address and
   the two entries the Monday round leaves out. One new entry was removed on 08.11. by Benedikt's
   ruling: its draft, if one exists, is deleted, not sent. Each asks for bio, portrait, the profile for matching,
   and confirms or asks the affiliation.
