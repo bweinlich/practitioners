@@ -16,9 +16,10 @@ yet. Seeds without a portrait show initials and list "Portrait" as missing.
 
 ## What remains
 
-- **Benedikt sends the 9 drafts** "Dein Profil bei hackers&wizards" / "Your profile at
-  hackers&wizards" (7 German, 2 English) to the seven new entries with a working address and the
-  two entries the Monday round leaves out. Each asks for bio, portrait, the profile for matching,
+- **Benedikt sends the drafts** "Dein Profil bei hackers&wizards" / "Your profile at
+  hackers&wizards" (7 German, 2 English on 08.11.) to the new entries with a working address and
+  the two entries the Monday round leaves out. One new entry was removed on 08.11. by Benedikt's
+  ruling: its draft, if one exists, is deleted, not sent. Each asks for bio, portrait, the profile for matching,
   and confirms or asks the affiliation.
 - **Follow-up for the other 49** (the Monday round asks for bio and links, not for the profile or
   affiliation): draft only after each person has answered their first mail, so nobody gets two
