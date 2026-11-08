@@ -71,4 +71,5 @@ Benedikt's phone card was cut off, so its score understates it; it ranks last on
 Fixed after the round: all six reviewers saw "Approved entry" on Stefan's page above a missing
 field. The hero no longer carries a status, and the box shows on every draft and whenever anything
 mandatory is missing. Left as it is: the role line and topics the website shows under the name.
-Both are the website's own data, and this repo holds no role.
+The role lines now live here (`job`, `expertise`, `background`) and the pages do not show them
+yet; topics are the website's own data.
