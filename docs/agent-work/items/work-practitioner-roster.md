@@ -6,7 +6,7 @@ owner: Ada
 area: people
 evidence: "08.11.: 8 seed entries, affiliation on 20 draft entries, 9 Gmail drafts in benedikt@hackersandwizards.dev, none sent. Names live in os (docs/agent-work/2026-11-08-practitioner-roster.md and Ada's run report), since this repo is public."
 assumption: "affiliation comes only from `work.company` or `facets.trainer.supply_partner` on the Company OS record (the company record's `name`), `freelance` only where the record says freelance, `hackers&wizards` for staff with an employment record; Slack channels were not read"
-order: 460
+order: 510
 ---
 
 # Every person who delivers for h&w has an entry, with affiliation
